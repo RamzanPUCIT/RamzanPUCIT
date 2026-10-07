@@ -30,20 +30,9 @@ I'm an **M.Phil Artificial Intelligence** researcher at **PUCIT, University of t
 
 My way of working is simple: **read the paper → implement the core idea → benchmark it against strong baselines.** That habit runs through my repositories, where CNNs, Vision Transformers, video models and sequence models are put head-to-head on real datasets rather than used as black boxes.
 
-```python
-class AIResearcher:
-    name        = "Muhammad Ramzan"
-    affiliation = "PUCIT, University of the Punjab — Old Campus, Lahore"
-    degree      = "M.Phil Artificial Intelligence (in progress)"
-
-    research = [
-        "Computer Vision", "Video Understanding", "Deep Learning",
-        "Generative AI", "Multimodal Learning", "LLMs, RAG & Agentic AI",
-    ]
-    approach = "Paper → Implementation → Benchmark → Iterate"
-    open_to  = ["Research collaborations", "AI/ML roles & internships",
-                "PhD & scholarship opportunities"]
-```
+| 🎓 Degree | 🔬 Research Focus | ⚙️ Approach |
+|:-:|:-:|:-:|
+| M.Phil Artificial Intelligence<br/>PUCIT, University of the Punjab | Computer Vision · Generative AI<br/>Multimodal Learning · LLMs & RAG | Paper → Implementation<br/>→ Benchmark → Iterate |
 
 ---
 
