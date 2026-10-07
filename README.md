@@ -163,7 +163,7 @@ Current focus of study and experimentation alongside my thesis research.
 <summary><b>📜 Certifications</b></summary>
 <br />
 
-- **Microsoft Azure AI & Machine Learning** — Govt. Skills Training Centre (GSTC), Mughalpura, Lahore
+- **Microsoft Azure AI & Machine Learning** — GSTC Mughalpura, Lahore
 - **Python for Everybody Specialization** — Coursera · University of Michigan
 - **Python Data Structures** — Coursera · University of Michigan
 
@@ -178,12 +178,12 @@ Current focus of study and experimentation alongside my thesis research.
   <img height="175" src="https://streak-stats.demolab.com?user=RamzanPUCIT&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
-<!-- Snake animation: works after the GitHub Action (.github/workflows/snake.yml) runs once -->
+<!-- 3D contribution graph: generated daily by .github/workflows/profile-3d-contrib.yml -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RamzanPUCIT/RamzanPUCIT/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RamzanPUCIT/RamzanPUCIT/output/github-snake.svg" />
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/RamzanPUCIT/RamzanPUCIT/output/github-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RamzanPUCIT/RamzanPUCIT/main/profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RamzanPUCIT/RamzanPUCIT/main/profile-3d-contrib/profile-green-animate.svg" />
+    <img width="100%" alt="3D contribution graph" src="https://raw.githubusercontent.com/RamzanPUCIT/RamzanPUCIT/main/profile-3d-contrib/profile-night-rainbow.svg" />
   </picture>
 </p>
 
