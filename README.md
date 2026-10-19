@@ -1,13 +1,5 @@
 <!-- ===================== HEADER ===================== -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:1a1b27,50:3b2f7a,100:70a5fd&text=Muhammad%20Ramzan&fontColor=ffffff&fontSize=52&fontAlignY=36&desc=AI%20Researcher%20%C2%B7%20M.Phil%20Artificial%20Intelligence%20%40%20PUCIT&descSize=18&descAlignY=58&animation=fadeIn" alt="Muhammad Ramzan" width="100%" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/RamzanPUCIT">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=70A5FD&center=true&vCenter=true&width=720&lines=M.Phil+AI+Researcher+%40+PUCIT%2C+University+of+the+Punjab;Computer+Vision+%E2%80%A2+Deep+Learning+%E2%80%A2+Generative+AI;Vision+Transformers+%E2%80%A2+Diffusion+Models+%E2%80%A2+Multimodal+Learning;Exploring+LLMs%2C+RAG+%26+Agentic+AI;Read+the+paper+%E2%86%92+Build+it+%E2%86%92+Benchmark+it" alt="Typing SVG" />
-  </a>
-</p>
+<a href="#-featured-projects"><img src="assets/profile/hero.svg" width="100%" alt="Muhammad Ramzan, AI Researcher: animated research map of computer vision, video, activity recognition, retrieval, vision and language, and generative AI"/></a>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ramzan-ai"><img src="https://img.shields.io/badge/LinkedIn-ramzan--ai-0A66C2?style=for-the-badge" alt="LinkedIn" /></a>
@@ -17,7 +9,6 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RamzanPUCIT&label=Profile%20Views&color=70a5fd&style=flat-square" alt="Profile views" />
   <img src="https://img.shields.io/badge/Location-Lahore%2C%20Pakistan-38bdae?style=flat-square" alt="Location" />
   <img src="https://img.shields.io/badge/Status-Open%20to%20Research%20%26%20AI%2FML%20Roles-bf91f3?style=flat-square" alt="Status" />
 </p>
@@ -33,6 +24,25 @@ My way of working is simple: **read the paper → implement the core idea → be
 | 🎓 Degree | 🔬 Research Focus | ⚙️ Approach |
 |:-:|:-:|:-:|
 | M.Phil Artificial Intelligence<br/>PUCIT, University of the Punjab | Computer Vision · Generative AI<br/>Multimodal Learning · LLMs & RAG | Paper → Implementation<br/>→ Benchmark → Iterate |
+
+---
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%"><a href="https://github.com/RamzanPUCIT/pattern-recognition-early-fusion-har"><img src="assets/profile/project-01-har.svg" width="100%" alt="HAR Early Fusion: 9 wearable sensor streams, best test accuracy 81.8% with an LSTM"/></a></td>
+<td width="50%"><a href="https://github.com/RamzanPUCIT/lhc-legal-information-retrieval-system"><img src="assets/profile/project-02-lhc.svg" width="100%" alt="LHC Legal Search: 1,000 court judgments ranked by TF-IDF and cosine similarity"/></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/RamzanPUCIT/medicinal-leaf-cbir-autoencoder"><img src="assets/profile/project-03-leaf.svg" width="100%" alt="Medicinal Leaf CBIR: autoencoder embeddings, 6 of 6 Neem look-alikes"/></a></td>
+<td width="50%"><a href="https://github.com/RamzanPUCIT/image-captioning-cnn-lstm"><img src="assets/profile/project-04-caption.svg" width="100%" alt="Image Captioning: ResNet50 + LSTM on Flickr30k"/></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/RamzanPUCIT/suspicious-activity-detection-video-models"><img src="assets/profile/project-05-video.svg" width="100%" alt="Video Detection: VideoMAE vs SlowFast vs I3D, best test accuracy 76.96%"/></a></td>
+<td width="50%"><a href="https://github.com/RamzanPUCIT/?tab=repositories"><img src="assets/profile/project-06-more.svg" width="100%" alt="More research repositories: ViT, DDPM, Pix2Pix, CLIP and more"/></a></td>
+</tr>
+</table>
 
 ---
 
@@ -160,28 +170,31 @@ Current focus of study and experimentation alongside my thesis research.
 
 ---
 
-## 📊 GitHub Activity
+## 📊 GitHub Activity · Live
 
-<p align="center">
-  <img height="175" src="https://github-readme-stats.vercel.app/api?username=RamzanPUCIT&show_icons=true&theme=tokyonight&hide_border=true&hide_rank=true&count_private=true" alt="GitHub Stats" />
-  <img height="175" src="https://streak-stats.demolab.com?user=RamzanPUCIT&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
+<table>
+<tr>
+<td width="50%"><img src="assets/profile/stats.svg" width="100%" alt="Live GitHub stats: commits, stars, repositories, pull requests, issues and followers"/></td>
+<td width="50%"><img src="assets/profile/streak.svg" width="100%" alt="Live contribution streak: current and longest streak"/></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/profile/languages.svg" width="100%" alt="Primary languages across public repositories"/></td>
+<td width="50%"><img src="assets/profile/activity.svg" width="100%" alt="Contributions in the last 30 days"/></td>
+</tr>
+</table>
 
-<!-- 3D contribution graph: generated daily by .github/workflows/profile-3d-contrib.yml -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RamzanPUCIT/RamzanPUCIT/main/profile-3d-contrib/profile-night-rainbow.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RamzanPUCIT/RamzanPUCIT/main/profile-3d-contrib/profile-green-animate.svg" />
-    <img width="100%" alt="3D contribution graph" src="https://raw.githubusercontent.com/RamzanPUCIT/RamzanPUCIT/main/profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg" />
+    <img width="100%" alt="3D contribution graph" src="profile-3d-contrib/profile-night-rainbow.svg" />
   </picture>
 </p>
+
+<p align="center"><sub>🟢 These cards refresh automatically every hour through GitHub Actions (<code>.github/workflows/profile-3d-contrib.yml</code>).</sub></p>
 
 ---
 
 <p align="center">
   <b>Always learning, always building.</b> If you're working on computer vision, generative models or LLM systems — let's connect. 🤝
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:70a5fd,50:3b2f7a,100:1a1b27" alt="footer" width="100%" />
 </p>
