@@ -1,19 +1,28 @@
-name: GitHub-Profile-3D-Contrib
+name: Profile live cards + 3D graph
 
 on:
-  # roz raat 11 baje (Pakistan time) khud chalega
+  # har ghante khud chalega (minute 17 par, taake rush hour se bacha jaye)
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "17 * * * *"
+  # jab bhi aap README ya scripts update karein, foran chalega
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - ".github/**"
   # Actions tab se manually "Run workflow" button
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v5
 
@@ -23,11 +32,24 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Commit & Push
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate live stats cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: |
+          pip install --quiet fonttools==4.65.0 uharfbuzz==0.56.3
+          python .github/scripts/profile_cards.py
+
+      - name: Commit & push (only if something changed)
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add -A .
-          if git commit -m "Update 3D contribution graph"; then
+          git add -A profile-3d-contrib assets/profile
+          if git commit -m "Update live profile cards"; then
+            git pull --rebase
             git push
           fi
